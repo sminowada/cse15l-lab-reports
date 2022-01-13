@@ -7,3 +7,7 @@ Hello hello
 2. two
 3. three
 # Seiji Minowada
+* a
+* b
+* c
+* **Bold**
