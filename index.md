@@ -1,7 +1,7 @@
 Hello hello
 
 *Italic*
-> tests
+tests
 --------
 `inline`
 1. one
