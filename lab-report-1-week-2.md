@@ -1,5 +1,5 @@
 **Step 1: Installing VSCode**
-* Go to VSCode website  `https://code.visualstudio.com/`
+* Go to VSCode  [website](https://code.visualstudio.com/)
 * Download for your operating system
 * When installed your screen should look like below
 ![Image](img1.png)
@@ -76,3 +76,10 @@ class WhereAmI {
 * You can also use semicolons to run multiple commands
 
 ![Image](img11.png)
+
+* Using this new method we can reduce the number of keystrokes
+* With the method I was able to scp a file and run it with only 6 keystrokes.
+1. Use up arrow to get command ` scp WhereAmI.java cs15lwi22xx@ieng6.ucsd.edu:~/ `
+2. hit enter
+3. Use up arrow twice to get `ssh cs15lwi22xx@ieng6.uced.edu javac WhereAmI.java; java WhereAmI`
+4. hit enter again and you will ssh and run WhereAmI.java
