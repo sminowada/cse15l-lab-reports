@@ -10,7 +10,7 @@
 * It should look something like this 
 ![Image](img2.png)
 
-* The command we are going to use to connect is *ssh*
+* The command we are going to use to connect is `ssh`
 * If you know your student account you can type in the terminal `ssh cs15lwi22xx@ieng6.uced.edu` where xx is your personal account combination
 * If not you can find it here: https://sdacs.ucsd.edu/~icc/index.php
 * It will then prompt you for a password: *As you enter your password nothing will pop up. This is on purpose*
@@ -18,9 +18,9 @@
 
 **Step 3: Trying Some Commands**
 * Try running some commands such as 
-    * cd (Changes directory)
-    * ls (Lists files/directories)
-    * ls -a (Lists files that start with "." as well)
+    * `cd` (Changes directory)
+    * `ls` (Lists files/directories)
+    * `ls -a` (Lists files that start with "." as well)
 ![Image](img4.png)
 
 **Step 4: Moving Files with `scp`**
@@ -38,7 +38,7 @@ class WhereAmI {
   }
 }
 ```
-* Running it with javac and java you can see what it does. Make sure you are in the right directoy when running it
+* Running it with `javac` and `java` you can see what it does. Make sure you are in the right directoy when running it
 * In my case, I have `WhereAmI.java` in the folder Lab1
 
 ![Image](img6.png)
@@ -50,12 +50,12 @@ class WhereAmI {
 
 ![Image](img7.png)
 
-* To confirm the file has been copied you can login and run javac and java using *Step 2*
+* To confirm the file has been copied you can login and run `javac` and `java` using *Step 2*
 
 **Step 5: Setting an SSH Key**
 * A ssh key will replace the need for a password by using a public and private key
 * The command we will be using is `ssh-keygen`
-* When prompted where to save type /Users/xx/.ssh/id_rsa but replace xx with your client name
+* When prompted where to save type `/Users/xx/.ssh/id_rsa` but replace xx with your client name
 * It should look something like this
 
 ![Image](img8.png)
